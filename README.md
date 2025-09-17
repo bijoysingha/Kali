@@ -16,12 +16,12 @@
 - ## Kali Nethunter Full VNC
 > 2.1GB tarball
 ```
-pkg update && pkg install wget -y && clear && wget -qO- https://raw.githubusercontent.com/xiv3r/Kali-Linux-Termux/refs/heads/main/kali_nethunter/kali-full | bash && kali
+pkg update && pkg install wget -y && clear && wget -qO- https://raw.githubusercontent.com/bijoysingha/Kali/refs/heads/main/kali_nethunter/kali-full | bash && kali
 ```
 - ## Kali Nethunter Minimal
 > 131MB tarball Without VNC
 ```
-pkg update && pkg install wget -y && clear && wget -qO- https://raw.githubusercontent.com/xiv3r/Kali-Linux-Termux/refs/heads/main/kali_nethunter/minimal | bash && kali
+pkg update && pkg install wget -y && clear && wget -qO- https://raw.githubusercontent.com/bijoysingha/Kali/refs/heads/main/kali_nethunter/minimal | bash && kali
 ```
 > - Setup for kali nethunter full
 > - After the installation type the following command in the termux terminal (not the kali)
@@ -102,3 +102,4 @@ adb shell /system/bin/device_config get activity_manager max_phantom_processes
 
 # Common issues
 https://github.com/xiv3r/Kali-Linux-Termux/issues?q=is%3Aissue%20state%3Aclosed
+tate%3Aclosed
